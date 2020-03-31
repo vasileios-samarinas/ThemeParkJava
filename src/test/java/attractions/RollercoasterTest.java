@@ -16,6 +16,7 @@ public class RollercoasterTest {
         rollerCoaster = new RollerCoaster("Blue Ridge", 10);
     }
 
+
     @Test
     public void hasName() {
         assertEquals("Blue Ridge", rollerCoaster.getName());
@@ -47,6 +48,23 @@ public class RollercoasterTest {
     public void hasNotAllowedVisitorHasNotValidHeightButAge(){
         visitor= new Visitor(26,1.3,100.00);
         assertFalse(rollerCoaster.isAllowedTo(visitor));
+    }
+
+    @Test
+    public void hasStartingPrice(){
+        assertEquals(8.4,rollerCoaster.defaultPrice(),0.01);
+    }
+
+    @Test
+    public void hasPriceForUnder2m(){
+        visitor= new Visitor(26,1.3,100.00);
+        assertEquals(8.4,rollerCoaster.priceFor(visitor),0.01);
+    }
+
+    @Test
+    public void hasPriceForOver2m(){
+        visitor= new Visitor(26,2.1,100.00);
+        assertEquals(16.8,rollerCoaster.priceFor(visitor),0.01);
     }
 
 
