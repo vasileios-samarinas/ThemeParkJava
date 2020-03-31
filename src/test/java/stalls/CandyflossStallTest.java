@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 
 public class CandyflossStallTest {
 
@@ -12,7 +13,7 @@ public class CandyflossStallTest {
 
     @Before
     public void setUp() throws Exception {
-        candyflossStall = new CandyflossStall("Candy Land", "Harry Belafonte", ParkingSpot.A1);
+        candyflossStall = new CandyflossStall("Candy Land", "Harry Belafonte", ParkingSpot.A1,4);
     }
 
     @Test
@@ -29,4 +30,8 @@ public class CandyflossStallTest {
     public void hasParkingSpot(){
         assertEquals(ParkingSpot.A1, candyflossStall.getParkingSpot());
     }
+
+    @Test
+    public void hasRating(){assertEquals(4,candyflossStall.getRating());}
+
 }

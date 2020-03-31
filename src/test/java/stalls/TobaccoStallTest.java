@@ -13,7 +13,7 @@ public class TobaccoStallTest {
 
     @Before
     public void setUp() throws Exception {
-        tobaccoStall = new TobaccoStall("Jacks Drum", "Jack Jarvis", ParkingSpot.B1);
+        tobaccoStall = new TobaccoStall("Jacks Drum", "Jack Jarvis", ParkingSpot.B1,5);
     }
 
     @Test
@@ -42,4 +42,7 @@ public class TobaccoStallTest {
         visitor= new Visitor(14,1.75,100.00);
         assertFalse(tobaccoStall.isAllowedTo(visitor));
     }
+    @Test
+    public void hasRating(){assertEquals(5,tobaccoStall.getRating());}
+
 }
