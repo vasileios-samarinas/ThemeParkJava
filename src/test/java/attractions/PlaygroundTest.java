@@ -32,7 +32,7 @@ public class PlaygroundTest {
     }
 
     @Test
-    public void hasAllowedVisitorToIfOver15yearsOld(){
+    public void hasAllowedVisitorToIfLessThan15yearsOld(){
         visitor= new Visitor(12,1.75,100.00);
         assertTrue(playground.isAllowedTo(visitor));
     }
