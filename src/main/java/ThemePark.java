@@ -6,6 +6,7 @@ public class ThemePark {
 
     private ArrayList<IReviewed>parks;
 
+
     public ThemePark(){
         this.parks=new ArrayList<>();
     }
@@ -21,5 +22,10 @@ public class ThemePark {
     public void clearAll(){
         parks.clear();
     }
+
+    public ArrayList getAllReviewed(){
+        return this.parks;
+    }
+
 
 }

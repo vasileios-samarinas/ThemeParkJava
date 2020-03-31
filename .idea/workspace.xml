@@ -4,7 +4,7 @@
     <list default="true" id="3c7d75fa-a584-4d4f-ac5e-444b9129a455" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ThemePark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThemePark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/attractions/DodgemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/attractions/DodgemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ThemeParkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThemeParkTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="JUnit.ThemeParkTest">
+  <component name="RunManager" selected="JUnit.ThemeParkTest.canGetAllReviews">
     <configuration name="DodgemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemeParkStartPoint" />
       <extension name="coverage">
@@ -52,21 +52,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="attractions" />
       <option name="MAIN_CLASS_NAME" value="attractions.DodgemTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RollercoasterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ThemeParkStartPoint" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="attractions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="attractions" />
-      <option name="MAIN_CLASS_NAME" value="attractions.RollercoasterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,6 +76,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThemeParkTest.canGetAllReviews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThemeParkStartPoint" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ThemeParkTest" />
+      <option name="METHOD_NAME" value="canGetAllReviews" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThemeParkTest.parksListStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemeParkStartPoint" />
       <option name="PACKAGE_NAME" value="" />
@@ -103,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThemeParkTest.canGetAllReviews" />
         <item itemvalue="JUnit.ThemeParkTest" />
         <item itemvalue="JUnit.ThemeParkTest.canAddToParks" />
         <item itemvalue="JUnit.ThemeParkTest.parksListStartsEmpty" />
         <item itemvalue="JUnit.DodgemTest" />
-        <item itemvalue="JUnit.RollercoasterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -142,28 +137,28 @@
     </state>
     <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1585678543737" />
     <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/-1920.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1585680232435" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1585682612102">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1585684084534">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1585682612102" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1585684084534" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1585680692166" />
     <state width="1238" height="175" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1585673840274" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1585682612099">
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1585684084531">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1585682612099" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1585684084531" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1585680692164" />
     <state width="1238" height="175" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1585673840273" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1585682612098">
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1585684084529">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1585682612098" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1585684084529" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1585680692162" />
     <state width="1238" height="175" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1585673840273" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1585682612101">
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1585684084532">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1585682612101" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1585684084532" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1585680692165" />
     <state width="1238" height="175" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1585673840274" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1585674343386">

@@ -1,8 +1,11 @@
 import attractions.Playground;
+import behaviours.IReviewed;
 import org.junit.Before;
 import org.junit.Test;
 import stalls.ParkingSpot;
 import stalls.TobaccoStall;
+
+import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
 
@@ -40,9 +43,15 @@ public class ThemeParkTest {
         assertEquals(0,themepark.parkCount());
     }
 
-
-
-
+    @Test
+    public void canGetAllReviewedObjects(){
+        ArrayList<IReviewed> smallPark = new ArrayList<>();
+        themepark.add(tobaccoStall);
+        smallPark.add(tobaccoStall);
+        themepark.add(playground);
+        smallPark.add(playground);
+        assertEquals(smallPark,themepark.getAllReviewed());
+    }
 
 
 }
